@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Refresher</title>
+  
+   <style>
+       p:active {
+        color: blue;
+       }
+
+       h1:hover {
+          background-color: yellow ;
+       }    
+
+       #anchor:link :active{
+        color: red;
+       }
+
+       p::before{
+        content:"BEFORE";
+        color: red;
+       }
+
+       P::after{
+        content: "AFTER";
+        color: red;
+       }
+
+       div h1:first-child{
+        color: orange 
+       }
+
+       div h3:last-child{
+        color: green;
+       }
+
+    </style>  
+    
+</head>
+
+    <h1>Psuedo Classe--></h1>
+
+                     <!--hover-->
+    <h1>Hover</h1>
+    <p>This is Hover</p>
+   
+           <!--Links, Active, Visited-->
+    <a id="anchor" href="https://www.facebook.com" >facebook</a>
+  
+  
+            <!--afer & before-->
+     <p>Paragraph</p>
+
+            <!--First Child & Last Child-->
+    <div>
+        <h1>RAM</h1>    <!--fist child-->
+        <H2>SHYAM</H2>
+        <h3>MOHAN</h3>   <!--last child-->
+    </div>
+
+</body>
+</html>
